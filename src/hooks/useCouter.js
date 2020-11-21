@@ -5,6 +5,11 @@ export const useCouter = ( initialState = 10)  => {
     
     const [state, setstate] = useState(initialState)
 
+    const reset = () =>{
+        setstate( initialState );
+
+    }
+
     const increment = ( factor = '') =>{
         setstate( state + factor);
 
@@ -17,6 +22,7 @@ export const useCouter = ( initialState = 10)  => {
     return{
         state,
         increment,
-        decrement
+        decrement,
+        reset
     };
 }
