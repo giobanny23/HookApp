@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useRef } from 'react';
 
 import '../02-useEffect/effects.css';
 
 export const FocusScreen = () => {
+
+    const ref = useRef();
+    console.log(ref);  
+
 
     const handleClick =() =>{
         document.querySelector('input').select();
