@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { FocusScreen } from './componets/04-useRef/FocusScreen';
+//import { FocusScreen } from './componets/04-useRef/FocusScreen';
+//import { Layout } from './componets/05-useLayoutEffect/Layout';
+import { CallbackHook } from './componets/06-memos/CallbackHook';
+//import { ShowIncrement } from './componets/06-memos/ShowIncrement';
 //import { FormWithCustomHook } from './componets/02-useEffect/FormWithCustomHook';
 // import {HookApp} from './HookApp';
 //import { CounterApp } from './componets/01-useState/CounterApp';
@@ -9,7 +12,7 @@ import { FocusScreen } from './componets/04-useRef/FocusScreen';
 
 ReactDOM.render(
   
-    <FocusScreen />,
+    <CallbackHook/>,
  
   document.getElementById('root')
 );
