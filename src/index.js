@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 //import { FocusScreen } from './componets/04-useRef/FocusScreen';
 //import { Layout } from './componets/05-useLayoutEffect/Layout';
-import { CallbackHook } from './componets/06-memos/CallbackHook';
+//import { CallbackHook } from './componets/06-memos/CallbackHook';
+import { Padre } from './componets/07-tarea-memo/Padre';
 //import { ShowIncrement } from './componets/06-memos/ShowIncrement';
 //import { FormWithCustomHook } from './componets/02-useEffect/FormWithCustomHook';
 // import {HookApp} from './HookApp';
@@ -12,7 +13,7 @@ import { CallbackHook } from './componets/06-memos/CallbackHook';
 
 ReactDOM.render(
   
-    <CallbackHook/>,
+    <Padre />,
  
   document.getElementById('root')
 );

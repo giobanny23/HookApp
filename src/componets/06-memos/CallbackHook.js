@@ -2,7 +2,6 @@ import React, {useState, useCallback} from 'react';
 import { ShowIncrement } from './ShowIncrement';
 
 import '../02-useEffect/effects.css';
-import { useCouter } from '../../hooks/useCouter';
 
 
 export const CallbackHook = () => {
@@ -19,7 +18,7 @@ export const CallbackHook = () => {
 
     return (
         <div>
-            <hi1>useCallback Hook: { counter }</hi1>
+            <h1>useCallback Hook: { counter }</h1>
             <hr/>
 
 
